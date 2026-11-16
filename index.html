@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Môj zoznam úloh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="karta">
+    <h1>Môj zoznam úloh</h1>
+
+    <!-- Vstupné pole + tlačidlo na pridanie úlohy -->
+    <div class="riadok-vstupu">
+      <input
+        type="text"
+        id="input-uloha"
+        placeholder="Napíš novú úlohu..."
+        maxlength="80"
+      >
+      <button id="button-pridaj">Pridať</button>
+    </div>
+
+    <!-- Chybová správa pri prázdnom vstupe -->
+    <p id="chybova-sprava" class="skryta">Zadaj prosím nejaký text úlohy.</p>
+
+    <!-- Počítadlo nesplnených úloh -->
+    <p id="pocitadlo">Otvorené úlohy: 0</p>
+
+    <!-- Zoznam úloh – JavaScript sem pridáva nové prvky -->
+    <ul id="zoznam-uloh"></ul>
+  </main>
+
+  <!-- Pripojenie JavaScriptu až na konci tela, aby sa HTML najprv načítalo -->
+  <script src="script.js"></script>
+</body>
+</html>
