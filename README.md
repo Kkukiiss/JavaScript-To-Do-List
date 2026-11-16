@@ -55,6 +55,6 @@ The app is built on the **DOM (Document Object Model)** and **events**:
 
 ## 👨‍💻 Author
 
-**Filip Henkel**
+**Kristína Laššanová**
 
 School project – Applied Informatics. The code is freely available for study purposes.
